@@ -193,7 +193,8 @@
 				GCC_PREFIX_HEADER = UIImageResizeTest_Prefix.pch;
 				INFOPLIST_FILE = "UIImageResizeTest-Info.plist";
 				PRODUCT_NAME = UIImageResizeTest;
-			};
+			GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				};
 			name = Debug;
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
@@ -218,7 +219,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
-			};
+			GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
